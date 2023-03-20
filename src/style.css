@@ -1,0 +1,34 @@
+.spot {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row {
+    display: flex;
+}
+.even {
+    background-color: white;
+    color: black
+}
+.odd {
+    background-color: black;
+    color: white;
+}
+.spot.moveOdd {
+    background-color: aqua;
+    color: black;
+}
+.spot.moveEven {
+    background-color: lightblue;
+    color: black;
+}
+.spot.destination {
+    background-color: green;
+    color: white;
+}
+.spot.selected {
+    background-color: yellow;
+    color: black;
+}
